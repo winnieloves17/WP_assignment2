@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+  <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+        
+        <link href="survey_css.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Intro Survey</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+
+<header class="Intro">
+  
+  <h1><i class="fa fa-info-circle fa-5x"></i>Introduction Survey</h1>
+  <h2> Take 3 minutes to let us know more about you </h2>
+  <p> Your answers will be kept strictly confidential and will only be used in aggregate. <p>
+ </header>
+
+<div class="info">
+ <p>
+   <label for="name">1. Your name *</label>
+   <input type="text" id="name" placeholders="NAME">
+ </p>
+
+ <br>
+
+ <p>2. What is your gender? *</p>
+ <p>
+   <input type="radio" name="gender" value="r0"> Boy <br>
+   <input type="radio" name="gender" value="r1"> Girl
+ </p>
+
+ <br>
+
+ <p>
+   <label for="birth">3. Birthday *</label>
+   <input type="date" id="birth">
+ </p>
+ 
+ </div>
+ <br>
+
+<div class="transport">
+ <p> 4. Which form of transport do you use? *<br>
+ choose as many as you like </p>
+ <p>
+   <input type="checkbox" value="c0" id="transport0"> 
+   <label for="transport0">A.Walking </label> <br>
+   <input type="checkbox" value="c1" id="transport1"> 
+   <label for="transport1">B.Bus  </label><br>
+   <input type="checkbox" value="c2" id="transport2"> 
+   <label for="transport2">C.Motorcycle </label> <br>
+   <input type="checkbox" value="c3" id="transport3"> 
+   <label for="transport3">D.Car </label> <br>
+   <input type="checkbox" value="c4" id="transport4"> 
+   <label for="transport4">E.Bus </label> <br>
+   <input type="checkbox" value="c5" id="transport5"> 
+   <label for="transport5">F.Metro </label> <br>    
+   <input type="checkbox" value="c6" id="transport6"> 
+   <label for="transport6">G.Train </label> <br>
+   <input type="checkbox" value="c7" id="transport7"> 
+   <label for="transport7">H.Airplane </label> <br>
+ </p>
+ </div>
+ <br>
+
+<div class="edu">
+ <p> 5. What is the highest level of education you have completed?* </p>
+ <p>
+   <input type="radio" name="edu" value="r0" id="A"> 
+   <label for="A">A. Less than High School </label> <br>
+   <input type="radio" name="edu" value="r1" id="B"> 
+   <label for="B">B. High School or equivalent</label> <br>
+   <input type="radio" name="edu" value="r2" id="C"> 
+   <label for="C">C. Attended College / University </label> <br>
+   <input type="radio" name="edu" value="r3" id="D"> 
+   <label for="D">D. Associate degree </label><br>
+   <input type="radio" name="edu" value="r4" id="E"> 
+   <label for="E">E. Bachelor's degree </label> <br>
+   <input type="radio" name="edu" value="r5" id="F"> 
+   <label for="F">F. Master's degree </label> <br>
+   <input type="radio" name="edu" value="r6" id="G"> 
+   <label for="G">G. Professional degree </label> <br>
+   <input type="radio" name="edu" value="r7" id="H"> 
+   <label for="H">H. Doctorate degree </label><br>
+   <input type="radio" name="edu" value="r8" id="I"> 
+   <label for="I">I. I prefer not to answer </label> <br>
+ </p>
+
+ </div>
+ <br>
+
+<div class="work">
+  <p>
+    <label for="industry">6. Which industry do you work in or are most involved with?*</label>
+    <input type="text" name="i" id="industry" list="work" placeholders="WORK">
+    <datalist id ="work">  
+      <option>Business</option>
+      <option>Education</option>
+      <option>Medical</option>
+      <option>Law</option>
+      <option>Government</option> 
+ </p>
+ </div>
+ <br>
+
+<div class="contact">
+ <p>
+   <label for="phone">7. Your phone #</label>
+   <input type="tel" id="phone" placeholders="09XX-XXX-XXX">
+ </p>
+
+ <br>
+
+ <p>
+   <label for="email">8. Email address</label>
+   <input type="email" name="e" id="email" placeholders="EMAIL">
+ </p>
+
+ <br>
+
+ <p>
+   <label for="website">9. Personal website</label>
+   <input type="web" id="website">
+ </p>
+ </div>
+ <br>
+
+<div class="submit">
+ <p>
+   <input type="submit" name="check"
+   id="board" value="submit">
+   <label for="board">Submit</label> press ENTER
+ </p>
+
+<!--script-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+</body>
+
+</html>
+
+
+
+
+
+

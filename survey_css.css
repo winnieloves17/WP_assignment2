@@ -1,0 +1,58 @@
+
+body{
+	background:rgb(142,215,176);
+}
+
+.Intro{
+	text-align: center;
+}
+
+.Intro h1{
+
+	font-family: 'IM Fell Great Primer', serif;
+	font:2em bold;
+    color:#f0f8ff;
+    padding: 15px ; 
+    margin-bottom: 0px;
+    background:#008b8b;
+}
+
+.Intro h2{
+	vertical-align: top;
+	display: inline-block;
+    font-family: 'IM Fell Great Primer', serif;
+	font:2em bold;
+	color:#008b8b;
+
+}
+
+.Intro h3{
+	vertical-align: top;
+    font-family: 'IM Fell Great Primer', serif;
+	font-size:1em;
+    color:#008b8b;
+}
+
+.Intro p{
+	vertical-align: top;
+    font-family: 'IM Fell Great Primer', serif;
+	font-size:1em;
+}
+
+.info, .transport, .edu, .work, .contact {
+	font-family: 'IM Fell Great Primer', serif;
+	font-size:1em;
+}
+
+
+
+
+.submit{
+	text-align: center;
+    font-family: 'IM Fell Great Primer', serif;
+	font-size:1em bold;
+	color: #f0f8ff;
+	background:#008b8b;
+	padding: 5px; 
+}
+
